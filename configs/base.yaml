@@ -1,0 +1,16 @@
+seed: 42
+device: auto
+
+model:
+  name: vitpose
+  config: null
+  checkpoint: null
+
+inference:
+  keypoint_threshold: 0.30
+  draw_bbox: true
+  draw_labels: true
+  person_bboxes: null
+
+output:
+  directory: outputs

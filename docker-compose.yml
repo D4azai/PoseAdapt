@@ -1,0 +1,8 @@
+services:
+  poseadapt:
+    build: .
+    image: poseadapt:cpu
+    volumes:
+      - .:/workspace/PoseAdapt
+    working_dir: /workspace/PoseAdapt
+    command: ["--help"]

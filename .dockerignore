@@ -1,0 +1,16 @@
+.git
+.idea
+.venv
+.venv*
+__pycache__
+.pytest_cache
+.ruff_cache
+*.pyc
+*.pth
+*.pt
+data/coco
+outputs
+runs
+results/figures/*
+results/tables/*
+results/videos/*

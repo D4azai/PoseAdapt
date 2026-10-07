@@ -1,0 +1,11 @@
+base: base.yaml
+
+model:
+  name: vitpose
+  config: null       # Local MMPose model config (.py)
+  checkpoint: null   # Local official checkpoint (.pth)
+
+inference:
+  keypoint_threshold: 0.30
+  draw_bbox: true
+  draw_labels: true

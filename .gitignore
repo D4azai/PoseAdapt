@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+.venv*/
+.env
+configs/local*.yaml
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data, checkpoints, and generated outputs
+data/coco/
+data/subsets/*.json
+checkpoints/
+runs/
+outputs/
+results/figures/*
+results/tables/*
+results/videos/*
+!data/subsets/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!results/videos/.gitkeep
+
+# Model artifacts
+*.pth
+*.pt
+*.onnx
